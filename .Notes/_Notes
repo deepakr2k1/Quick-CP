@@ -1,0 +1,67 @@
+1.  Lower bound => returns an iterator of first element >= X
+    syntax => auto itr = lower_bound(A.begin(), A.end(), X);
+
+    eg.
+    Input: 10 20 30 40 50
+    Output: lower_bound for element 30 at index 2
+
+    Input: 10 20 30 40 50
+    Output: lower_bound for element 35 at index 3
+
+    Input: 10 20 30 40 50
+    Output: lower_bound for element 55 at index 5
+
+    Input: 10 20 30 30 30 40 50
+    Output: lower_bound for element 30 at index 2
+
+2.  Upper bound => returns an iterator of first element > X
+    syntax => auto itr = upper_bound(A.begin(), A.end(), X);
+
+    eg.
+    Input : 10 20 30 30 40 50
+    Output : upper_bound for element 30 is at index 4
+
+    Input : 10 20 30 40 50
+    Output : upper_bound for element 45 is at index 4
+
+    Input : 10 20 30 40 50
+    Output : upper_bound for element 60 is at index 5
+
+3.  multi-dimension vector resize 
+    dp.resize(100, vector<int> (100,-1));
+    dp.resize(100, vector<vector<int>> (100,vector<int>(100,-1)));
+
+4.  Comparator in cpp(code snippet) :-
+    // {10,2}, {5,11}, {2,6}, {2,2}
+    
+    bool comp(pair<int,int>& a,pair<int,int>& b) { 
+        if (a.first>b.first) {
+            return true;
+        }
+        return false;
+    }
+    sort(V.begin(),V.end(),cmp);
+
+5.  Setting precision to exact 2 decimal place
+    cout<<fixed<<setprecision(2)<<ans;
+
+6.  Time passed :-
+    using namespace std::chrono;
+    auto start = high_resolution_clock::now();
+    ....
+    ....
+    ....
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<nanoseconds>(stop-start); 
+    cout << "Time : " << duration.count() << " nanoseconds" << endl;
+
+7.  Saving Data into files :-
+
+    freopen ("Test_Cases_Random_Matrix.in", "w", stdout); 
+    ....
+    ....whatever data printed here will be stored....
+    ....
+    fclose(stdout); 
+
+8.  max_element() in cpp
+    auto itr = max_element(V.begin(),V.end());

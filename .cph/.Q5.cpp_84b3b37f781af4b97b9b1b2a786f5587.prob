@@ -1,0 +1,1 @@
+{"name":"Local: Q5","url":"c:\\Users\\Deepak\\CP helper\\Q5.cpp","tests":[{"id":1604466685655,"input":"12 4\n2 3 4 5","output":""},{"id":1604480678368,"input":"206 4\n2 20 9 30","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Deepak\\CP helper\\Q5.cpp","group":"local","local":true}

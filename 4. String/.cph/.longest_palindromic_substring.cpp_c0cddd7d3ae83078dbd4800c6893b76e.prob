@@ -1,0 +1,1 @@
+{"name":"Local: longest_palindromic_substring","url":"c:\\Users\\Deepak\\CP helper\\4. String\\longest_palindromic_substring.cpp","tests":[{"id":1604601955506,"input":"1\nahagaggaaa","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Deepak\\CP helper\\4. String\\longest_palindromic_substring.cpp","group":"local","local":true}
