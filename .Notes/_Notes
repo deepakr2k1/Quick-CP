@@ -40,7 +40,7 @@
         }
         return false;
     }
-    sort(V.begin(),V.end(),cmp);
+    sort(V.begin(),V.end(),comp);
 
 5.  Setting precision to exact 2 decimal place
     cout<<fixed<<setprecision(2)<<ans;
