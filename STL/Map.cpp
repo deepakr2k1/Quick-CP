@@ -16,5 +16,17 @@ int main()
     mp["Hackerrank"]=5;
     mp["CodeChef"]=10;
     for(auto &x : mp) cout<<x.first<<" "<<x.second<<endl;
+    
+    unordered_map<string, int> umap;
+    umap["GeeksforGeeks"] = 10;
+    umap["Practice"] = 20;
+    umap["Contribute"] = 30;
+    for (auto x : umap) cout << x.first << " " << x.second << endl;
+
+    auto it = mp.find("CodeChef");
+    if(it == mp.end()) 
+        cout << "Key-value pair not present in map" ; 
+    else
+        cout << it->first << "->" << it->second ; 
 
 }

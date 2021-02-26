@@ -65,3 +65,14 @@
 
 8.  max_element() in cpp
     auto itr = max_element(V.begin(),V.end());
+
+9.  Calculate Time Elapsed
+    
+	clock_t start, end;
+	start = clock();
+    // Your Code goes here...
+    
+	end = clock();
+	double time_taken = double(end - start) / double(CLOCKS_PER_SEC);
+	double total_time = time_taken;
+	cout <<"Time Elapsed = "<<total_time<<endl;

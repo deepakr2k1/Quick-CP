@@ -7,6 +7,16 @@ using namespace std;
 
 int Fac[MAX];
 int InFac[MAX];
+int InNat[MAX];
+
+inline void fastPreCompute() {             	// Efficiently pre-compute
+    Fac[0] = Fac[1] = InNat[0] = InNat[1] = InFac[0] = InFac[1] = 1;
+    for (int i=2;i<MAX;i++) {
+        Fac[i]=(Fac[i-1]*i)%MOD;
+		InNat[i] = InNat[MOD % i] * (MOD - MOD / i) % MOD;
+		InFac[i] = (InNat[i] * InFac[i - 1]) % MOD;
+    }
+}
 
 int power(int x,int y)                      // Iterative Function to calculate (x^y)%MOD in O(logy)
 {
