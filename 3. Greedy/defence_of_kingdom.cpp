@@ -1,4 +1,4 @@
-// https://www.spoj.com/problems/DEFKIN/
+// https://www.spoj.com/problems/DEFKIN/ 
 #include <bits/stdc++.h>
 using namespace std;
 #define FastIO ios_base::sync_with_stdio(false),cin.tie(NULL);
