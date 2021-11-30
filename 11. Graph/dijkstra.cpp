@@ -29,7 +29,7 @@ vi dijkstra(int v) {
     vi d(n, INF);
     d[v]=0;
     set<pii> S;
-    S.insert({v,d[v]});
+    S.insert({d[v], v});
     while(!S.empty()) {
         int u = S.begin() -> second;
         S.erase(S.begin());
