@@ -1,1 +1,0 @@
-{"name":"DIE HARD","group":"SPOJ - Classical","url":"https://www.spoj.com/problems/DIEHARD/","interactive":false,"memoryLimit":1536,"timeLimit":10000,"tests":[],"testType":"single","input":{"type":"stdin"},"output":{"type":"stdout"},"languages":{"java":{"mainClass":"Main","taskClass":"DIEHARD"}},"srcPath":"c:\\Users\\Deepak\\CP helper\\DIE_HARD.cpp"}

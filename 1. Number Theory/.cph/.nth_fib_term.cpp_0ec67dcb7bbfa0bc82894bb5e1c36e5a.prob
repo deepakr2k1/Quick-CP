@@ -1,1 +1,0 @@
-{"name":"Local: nth_fib_term","url":"d:\\CP\\Quick-CP\\1. Number Theory\\nth_fib_term.cpp","tests":[{"id":1614668684906,"input":"2\n2\n4","output":"2\n8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP\\Quick-CP\\1. Number Theory\\nth_fib_term.cpp","group":"local","local":true}

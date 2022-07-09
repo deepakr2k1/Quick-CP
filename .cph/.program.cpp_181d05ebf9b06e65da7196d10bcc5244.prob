@@ -1,1 +1,0 @@
-{"group":"local","interactive":false,"local":true,"memoryLimit":1024,"name":"Local: program","srcPath":"c:\\Users\\Deepak\\VS Code Programs\\program.cpp","tests":[{"id":1601654612320,"input":"10\n0 1 2 3 4 5 6 7 8 9","output":"160"}],"timeLimit":3000,"url":"c:\\Users\\Deepak\\VS Code Programs\\program.cpp"}
